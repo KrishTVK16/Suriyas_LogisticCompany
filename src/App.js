@@ -56,7 +56,7 @@ const AppContent = () => {
 function App() {
   return (
     <ThemeProvider>
-      <Router>
+      <Router basename="/Suriyas_LogisticCompany">
         <AppContent />
       </Router>
     </ThemeProvider>
